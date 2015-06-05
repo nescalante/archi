@@ -2,6 +2,8 @@
 
 > Easy math with decimals for Javascript
 
+![Archimedes](http://i.imgur.com/o22kQDq.jpg)
+
 ## Install
 
 Using `npm`
