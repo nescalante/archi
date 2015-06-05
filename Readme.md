@@ -13,13 +13,13 @@ npm install archi
 ## Native simple Javascript sum
 
 ```js
-var num = 0.1 + 0.2; // 0.30000000000000004;
 0.1 + 0.2; // 0.30000000000000004;
+0.3 - 0.1; // 0.19999999999999998;
 ```
 
 ## Solving the issue with archi
 
-```
+```js
 var archi = require('archi');
 var num = +archi
   .calc(0.1)
