@@ -1,0 +1,32 @@
+{
+  "name": "archi",
+  "version": "0.1.0",
+  "description": "Easy math with decimals for Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jshint . --reporter node_modules/jshint-stylish/stylish.js && tape tests/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nescalante/archi"
+  },
+  "keywords": [
+    "calc",
+    "math",
+    "decimals"
+  ],
+  "author": "Nicolas Escalante <nlante@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nescalante/archi/issues"
+  },
+  "homepage": "https://github.com/nescalante/archi",
+  "devDependencies": {
+    "jshint": "~2.6.0",
+    "jshint-stylish": "~1.0.0",
+    "tape": "^4.0.0"
+  },
+  "dependencies": {
+    "poser": "^1.2.0"
+  }
+}
