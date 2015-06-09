@@ -20,9 +20,19 @@ test('minus', function (t) {
   t.end();
 });
 
+test('mod', function (t) {
+  t.equal(+calc(2).mod(2), 0);
+  t.equal(+calc(3).mod(2), 1);
+  t.equal(+calc(0.3).mod(0.2), 1);
+  t.equal(+calc(0.3).mod(0.1), 0);
+
+  t.end();
+});
+
 test('composed calc', function (t) {
   t.equal(+calc(0.1).plus(0.2).minus(0.1), 0.2);
   t.equal(+calc(0.1).plus(0.1).plus(0.1), 0.3);
+  t.equal(+calc(0.1).plus(0.1).mod(0.1), 0);
 
   t.end();
 });

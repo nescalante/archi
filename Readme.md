@@ -39,6 +39,7 @@ Do this to do a fast conversion from the `ArchiNumber` instance to the native `N
 
 - `.plus(num)`: current num + other num
 - `.minus(num)`: current num - other num
+- `.mod(num)`: current num % other num
 
 ## License
 

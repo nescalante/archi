@@ -18,6 +18,14 @@ ArchiNumber.prototype.minus = function (num) {
   return new ArchiNumber(((num1 * factor) - (num2 * factor)) / factor);
 };
 
+ArchiNumber.prototype.mod = function (num) {
+  var num1 = +this;
+  var num2 = +num;
+  var factor = getMaxFactor(num1, num2);
+
+  return new ArchiNumber((num1 * factor) % (num2 * factor));
+};
+
 function getMaxFactor(num1, num2) {
   return Math.max(getFactor(num1), getFactor(num2));
 }
