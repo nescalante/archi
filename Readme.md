@@ -12,6 +12,12 @@ Using `npm`
 npm install archi
 ```
 
+Using `bower`
+
+```
+bower install archi
+```
+
 ## Native simple Javascript sum
 
 ```js

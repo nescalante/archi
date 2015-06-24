@@ -1,0 +1,25 @@
+{
+  "name": "archi",
+  "main": "dist/archi.js",
+  "version": "0.2.0",
+  "homepage": "https://github.com/nescalante/archi",
+  "authors": [
+    "Nicolas Escalante <nlante@gmail.com>"
+  ],
+  "description": "Easy math with decimals for Javascript",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "math",
+    "decimals",
+    "sum"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "tests"
+  ]
+}

@@ -36,3 +36,9 @@ test('composed calc', function (t) {
 
   t.end();
 });
+
+test('should not be a global if node process', function (t) {
+  t.equal(global.archi, undefined);
+
+  t.end();
+});

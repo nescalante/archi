@@ -45,8 +45,14 @@ function getFactor(num) {
   return factor;
 }
 
-module.exports = {
+var archi = {
   calc: function (num) {
     return new ArchiNumber(num);
   }
 };
+
+if (process.browser) {
+  global.archi = archi;
+}
+
+module.exports = archi;
