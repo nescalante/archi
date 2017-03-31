@@ -23,9 +23,9 @@
   },
   "homepage": "https://github.com/nescalante/archi",
   "devDependencies": {
-    "browserify": "^10.2.4",
-    "jshint": "~2.6.0",
-    "jshint-stylish": "~1.0.0",
+    "browserify": "^14.1.0",
+    "jshint": "~2.9.4",
+    "jshint-stylish": "~2.2.1",
     "tape": "^4.0.0"
   },
   "dependencies": {
