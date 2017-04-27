@@ -1,6 +1,4 @@
-# +archi
-
-[![Greenkeeper badge](https://badges.greenkeeper.io/nescalante/archi.svg)](https://greenkeeper.io/)
+# +archi [![Greenkeeper badge](https://badges.greenkeeper.io/nescalante/archi.svg)](https://greenkeeper.io/)
 
 > Easy math with decimals for Javascript
 
