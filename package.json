@@ -4,7 +4,7 @@
   "description": "Easy math with decimals for Javascript",
   "main": "index.js",
   "scripts": {
-    "test": "jshint index.js --reporter node_modules/jshint-stylish/stylish.js && tape tests/**/*.js",
+    "test": "jshint index.js && tape tests/**/*.js",
     "build": "npm run test; browserify index.js -d -o dist/archi.js; uglify -s dist/archi.js -o dist/archi.min.js"
   },
   "repository": {
@@ -23,9 +23,8 @@
   },
   "homepage": "https://github.com/nescalante/archi",
   "devDependencies": {
-    "browserify": "^10.2.4",
-    "jshint": "~2.6.0",
-    "jshint-stylish": "~1.0.0",
+    "browserify": "^14.1.0",
+    "jshint": "^2.9.4",
     "tape": "^4.0.0"
   },
   "dependencies": {
